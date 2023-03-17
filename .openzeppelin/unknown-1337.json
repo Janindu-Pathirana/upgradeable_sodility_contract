@@ -1,0 +1,254 @@
+{
+  "manifestVersion": "3.2",
+  "admin": {
+    "address": "0x409B26e9707d8Bb4C597D848d382B955A2aa3e8F",
+    "txHash": "0xe53954adcf50e2ab5aeedd005d277380f08f5a92c2b2ed8f3c0c6d834c13aaf7"
+  },
+  "proxies": [
+    {
+      "address": "0x61483245E09b1671c69a9592B17dC56d19F3382F",
+      "txHash": "0xda1fc88e91f03bad74dfd3aaf09b19b2f2d532850bbddb330470f7503b040a3a",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6292A2482EdE22B201A7C2A2EE1B975180708C92",
+      "txHash": "0xd019dde6cda6f04e92ff9bfa496d86986ce38fa701a623709610c9db8c7b4192",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x6C6a8246f95588bc366342119cdbA40E05B1c1a4",
+      "txHash": "0x0bec735ab5741a9d9ff15d06127082e0dd59452fd90a82e2c8db2f9a28a7ed80",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x719Dc4cF96a279fB807acE4e4F2A8D36CDd5b2d0",
+      "txHash": "0x4f7a49687c6fe6cd6a89093ab80438b8e73843fee2ee3ee91eb1b0e15a4a43c2",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x905E558e623648585873eb48DC94FF19b55C31a9",
+      "txHash": "0xe8217887591dab42a13f7927bf0a1d01c5c803241bdde8695489913f0ed806dd",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x26b109855416CAD05952bCbdd79780311A813B54",
+      "txHash": "0x3f2ff1d199ea8045c621d52a997ee09dc93f9dcf2b4b3657cf80d343a027eebc",
+      "kind": "transparent"
+    },
+    {
+      "address": "0xb486c1192A8E91D6D9f01f1337dC63fD42840Acf",
+      "txHash": "0x8c030905af382c974dec6271fe063a60ec3c6ba584effa41b3919f458f441083",
+      "kind": "transparent"
+    },
+    {
+      "address": "0x99f75515D92BC2AEFa4Bf150be67103c63Cfc9ee",
+      "txHash": "0x78ce2e7778304b5cb96d700cdffa2efd090f5ac7d5992a5751c6e351342b846e",
+      "kind": "transparent"
+    }
+  ],
+  "impls": {
+    "d20073128876ff4fb890a6cdc6ffe721e9680fad7021dc42b04b79126427c171": {
+      "address": "0x923cd03908b946ab2eCBa7a4926750b27c045FDb",
+      "txHash": "0x2c13b8e1597d62a5ff13abc6e8e1cec40ebc1dc34512d8286c46c6a4cf6fe72c",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "contract": "UpgradeablePetV2",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "../project:/contracts/UpgradeablePetV2.sol:7"
+          },
+          {
+            "contract": "UpgradeablePetV2",
+            "label": "_petOwner",
+            "type": "t_address",
+            "src": "../project:/contracts/UpgradeablePetV2.sol:8"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "958fa833bb8e0d98b615125eb0aa854349330336d6d30f3fffd2770e88969df8": {
+      "address": "0x95c4649fD387f89bf39aC91Dc30f20e497fcA303",
+      "txHash": "0xb8462480bd68e43353abfa55b0b3c9ef5ca7c63dde459fcf5d606d9d869a4ccd",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "contract": "TodoList",
+            "label": "list",
+            "type": "t_array(t_string_storage)dyn_storage",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:2"
+          }
+        ],
+        "types": {
+          "t_array(t_string_storage)dyn_storage": {
+            "label": "string[]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          }
+        }
+      }
+    },
+    "5fb7dea3509bf14b76cec1a1ad1f40a118277f6cb05e15caf7aa2fc07049fc2a": {
+      "address": "0x3777f364D61D72C3730fc2bfE85024D2e8cA7492",
+      "txHash": "0xe020b8d123cebcfe49a57a2503f63042f5d8f7f296e437b857e761bfb69d2594",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "contract": "TodoList",
+            "label": "list",
+            "type": "t_array(t_string_storage)dyn_storage",
+            "src": "../project:/contracts/TodoList.sol:8"
+          }
+        ],
+        "types": {
+          "t_array(t_string_storage)dyn_storage": {
+            "label": "string[]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "36e559e51bcc45e77a223a95fd6d60a6bf5fdbe710a8e956917a7927e5988dfc": {
+      "address": "0xb2C1702fB93d6b95C25bF38b1da7EfAF34c53965",
+      "txHash": "0x60cda409c5f38cd799abba302e6722d5fdc3676e76395f367da048f74f843579",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "contract": "TodoList",
+            "label": "list",
+            "type": "t_array(t_string_storage)dyn_storage",
+            "src": "../project:/contracts/TodoList.sol:8"
+          }
+        ],
+        "types": {
+          "t_array(t_string_storage)dyn_storage": {
+            "label": "string[]"
+          },
+          "t_string_storage": {
+            "label": "string"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    },
+    "3fc9b2b7a7341d4ba27747ff856bf5ca015475ddf7d675cb6caf68dae74d4f23": {
+      "address": "0x7AdEbFD233011Fe97be3a82Aa2dB34fBC2cF6625",
+      "txHash": "0xdc44af04765d9b72e36160af4210eb2b48c313a47e37b41e73be0f95f02fdfaf",
+      "layout": {
+        "solcVersion": "0.8.17",
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_uint8",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:62",
+            "retypedFrom": "bool"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:67"
+          },
+          {
+            "contract": "UpgradeablePetV1",
+            "label": "_value",
+            "type": "t_uint256",
+            "src": "../project:/contracts/TodoList.sol:9"
+          },
+          {
+            "contract": "UpgradeablePetV1",
+            "label": "_petOwner",
+            "type": "t_address",
+            "src": "../project:/contracts/TodoList.sol:11"
+          }
+        ],
+        "types": {
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint8": {
+            "label": "uint8"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
+    }
+  }
+}
