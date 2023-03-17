@@ -22,6 +22,12 @@
 //
 // const fs = require('fs');
 // const mnemonic = fs.readFileSync(".secret").toString().trim();
+require("dotenv").config();
+const HDWalletProvider = require("@truffle/hdwallet-provider");
+
+//to fetch these keys from .env file
+const mnemonic = process.env.MNEMONIC;
+const infura_api_key = process.env.INFURA_API_KEY;
 
 module.exports = {
   /**
@@ -45,6 +51,15 @@ module.exports = {
       host: "127.0.0.1", // Localhost (default: none)
       port: 7545, // Standard Ethereum port (default: none)
       network_id: "*", // Any network (default: none)
+    },
+    goerli: {
+      provider: () =>
+        new HDWalletProvider(
+          mnemonic,
+          `https://goerli.infura.io/v3/${infura_api_key}`
+        ),
+      network_id: 5, //Goerli's id
+      // gas: 20000000, //gas limit
     },
     // Another network with more advanced options...
     // advanced: {
